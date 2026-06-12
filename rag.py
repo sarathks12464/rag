@@ -1,7 +1,7 @@
 import chromadb
 import google.generativeai as genai
 from pypdf import PdfReader
-genai.configure()
+genai.configure(API_KEY)
 
 reader = PdfReader("cv3.pdf")
 text = ""
